@@ -206,7 +206,7 @@
 #define EXPA1_10_PIN                       P1_30
 
 #define EXPA2_03_PIN                       -1
-#define EXPA2_04_PIN                       P1_31
+#define EXPA2_04_PIN                       -1  //P1_31
 #define EXPA2_05_PIN                       P0_18
 #define EXPA2_06_PIN                       P3_25
 #define EXPA2_07_PIN                       P0_16
