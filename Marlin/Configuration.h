@@ -986,7 +986,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 10, 10, -3 }
+#define NOZZLE_TO_PROBE_OFFSET { 26, 8, -4 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1835,7 +1835,7 @@
 //
 // Note: Usually sold with a white PCB.
 //
-//#define REPRAP_DISCOUNT_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_SMART_CONTROLLER
 
 //
 // Original RADDS LCD Display+Encoder+SDCardReader
@@ -2107,7 +2107,7 @@
 // SSD1306 OLED full graphics generic display
 //
 //#define U8GLIB_SSD1306
-#define U8GLIB_SH1106
+//#define U8GLIB_SH1106
 
 //
 // SAV OLEd LCD module support using either SSD1306 or SH1106 based LCD modules
